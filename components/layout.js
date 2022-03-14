@@ -27,14 +27,14 @@ export default function Layout({ children, home }) {
       <header className="relative h-12 w-full block sticky top-0 bg-white z-50 pt-1 px-2 object-right shadow-xl">
       <div className='absolute hover:animate-pulse hover:cursor-pointer'>
 
-          <button className='bg-purple-300 hover:bg-purple-500 rounded pl-2 pr-2 h-8 text-white font-bold'><a href='/files/thibodeaux-resume.pdf' download='thibodeaux-resume.pdf'>Resume</a>
+          <button className='bg-purple-300 hover:bg-purple-500 rounded pl-2 pr-2 h-8 text-white font-bold'><a href='/thibodeaux-resume.pdf' download='thibodeaux-resume.pdf'>Resume</a>
 
           </button></div>
 
 
       <div className='absolute right-0 pt-1 pr-2 bottom-0'>
 
-    
+
       <Link href="https://github.com/kthib16">
         <a className='pr-4'>
           <Image
