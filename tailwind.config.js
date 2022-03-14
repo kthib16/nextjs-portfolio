@@ -4,7 +4,7 @@ module.exports = {
     './pages/*.{html,js}',
     './components/*.{html,js}',
     './components/**/*.{html,js}',
-    './files/*{.pdf}',
+    './files/*.pdf',
 
   ],
   theme: {
