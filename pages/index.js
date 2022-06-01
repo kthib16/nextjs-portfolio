@@ -22,8 +22,8 @@ export default function Home() {
           priority="true"
           src="/images/profile.jpg"
           className='rounded-full mr-6'
-          height="15vh"
-          width="auto"
+          height='130'
+          width='130'
           alt={name}
         />
 
