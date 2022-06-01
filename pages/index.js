@@ -21,7 +21,7 @@ export default function Home() {
         <Image
           priority="true"
           src="/images/profile.jpg"
-          className='block rounded-full mr-6'
+          className='inline-block rounded-full mr-6'
           height='130'
           width='130'
           alt={name}
