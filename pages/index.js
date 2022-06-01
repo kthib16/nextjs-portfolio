@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className='pr-2 mt-2 mb-4 block'>
         <Image
-          priority
+          priority="true"
           src="/images/profile.jpg"
           className='rounded-full mr-6'
           layout='responsive'
