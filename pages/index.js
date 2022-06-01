@@ -17,13 +17,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 
-      <div className='pr-2 mt-2 mb-4 block w-32 h-32'>
+      <div className='flex pr-2 mt-2 mb-4'>
         <Image
           priority="true"
           src="/images/profile.jpg"
           className='rounded-full mr-6'
-          layout='responsive'
-          sizes="15vw"
+          height="15vh"
+          width="15vw"
           alt={name}
         />
 
