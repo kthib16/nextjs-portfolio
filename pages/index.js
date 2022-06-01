@@ -17,7 +17,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 
-      <div className=' pr-2 mt-2 mb-4'>
+      <div className='block pr-2 mt-2 mb-4'>
         <Image
           priority="true"
           src="/images/profile.jpg"
@@ -28,7 +28,7 @@ export default function Home() {
         />
 
 
-        <div className='w-96 text-base font-light pl-6 '><em>{description}</em></div>
+        <div className='inline-block w-96 text-base font-light pl-6 '><em>{description}</em></div>
         </div>
 
 
