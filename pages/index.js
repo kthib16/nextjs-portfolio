@@ -23,7 +23,7 @@ export default function Home() {
           src="/images/profile.jpg"
           className='rounded-full mr-6'
           height="15vh"
-          width="15vw"
+          width="auto"
           alt={name}
         />
 
