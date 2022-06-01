@@ -17,18 +17,18 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 
-      <div className='block pr-2 mt-2 mb-4'>
+      <div className=' text-center md:text-left px-2 mx-auto mt-2 mb-4'>
         <Image
           priority="true"
           src="/images/profile.jpg"
-          className='inline-block rounded-full mr-6'
+          className='inline-block rounded-full  md:mr-6'
           height='130'
           width='130'
           alt={name}
         />
 
 
-        <div className='inline-block w-96 text-base font-light pl-6 '><em>{description}</em></div>
+        <p className='max-w-md inline-block text-base font-light pl-6 '><em>{description}</em></p>
         </div>
 
 
@@ -43,7 +43,7 @@ export default function Home() {
 
 
             <h4 className="text-xl">Mortgage Map</h4>
-            <p className="visible sm:invisible">An interactive map of nonbank mortagage lending created using D3.js while at the Brookings Institution.</p>
+            <p className='hidden md:contents'>An interactive map of nonbank mortagage lending created using D3.js while at the Brookings Institution.</p>
           </div></a></Link>
 
           <Link href={'/my-calendar'}>
@@ -51,11 +51,13 @@ export default function Home() {
           <div className='h-24 flex mb-0 pb-0'>
             <img src='/images/MyCalendar-App/my-calendar-welcome.png' className='object-cover w-full rounded-t-lg border border-gray-100' />
           </div>
+
+
           <div  className=' bg-purple-300 hover:bg-purple-500 text-white rounded p-4 rounded-b-lg'>
 
               <h4 className='text-xl '>MyCalendar</h4>
 
-            <p className="visible sm:invisible">An app to help users keep track of events, created using React.js, Firebase, and the TicketMaster API</p>
+            <p className="hidden md:contents">An app to help users keep track of events, created using React.js, Firebase, and the TicketMaster API</p>
           </div>
           </a></Link>
           </div>
