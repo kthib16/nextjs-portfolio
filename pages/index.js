@@ -43,7 +43,7 @@ export default function Home() {
 
 
             <h4 className="text-xl">Mortgage Map</h4>
-            <p>An interactive map of nonbank mortagage lending created using D3.js while at the Brookings Institution.</p>
+            <p className="sm:hidden">An interactive map of nonbank mortagage lending created using D3.js while at the Brookings Institution.</p>
           </div></a></Link>
 
           <Link href={'/my-calendar'}>
@@ -55,7 +55,7 @@ export default function Home() {
 
               <h4 className='text-xl '>MyCalendar</h4>
 
-            <p>An app to help users keep track of events, created using React.js, Firebase, and the TicketMaster API</p>
+            <p className="sm:hidden">An app to help users keep track of events, created using React.js, Firebase, and the TicketMaster API</p>
           </div>
           </a></Link>
           </div>
