@@ -17,7 +17,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 
-      <div className='flex pr-2 mt-2 mb-4'>
+      <div className=' pr-2 mt-2 mb-4'>
         <Image
           priority="true"
           src="/images/profile.jpg"
