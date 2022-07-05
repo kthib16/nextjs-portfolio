@@ -1,0 +1,42 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import Layout, { siteTitle } from '../components/layout'
+
+export default function Experience(){
+
+return(
+  <Layout>
+    <Head>
+      <title>{siteTitle}</title>
+    </Head>
+    <h1 className="text-xl text-purple-500 font-bold">Experience</h1>
+    <p>Below are some of the trainings and courses I've taken. I'm constantly looking to learn more, so this list will continue to update:</p>
+
+    <h2>Bootcamps</h2>
+    <p>
+    <ul className='list-disc'>
+      <li><strong>Bloc</strong> - Frontend Fundamentals
+        <ul ><li>Learned Angular, JQuery, and vanilla Javascript</li></ul>
+      </li>
+      <li><strong>General Assembly</strong> - <a href='https://drive.google.com/file/d/1jJsNC1mGrQY6xqoxakWchHHPQwP9tTMF/view?usp=sharing' className='text-purple-300 hover:text-purple-500'>Javascript Development</a>
+        <ul><li>Learned React, Bootstrap, Databases like Firebase, APIs</li></ul>
+      </li>
+    </ul>
+    </p>
+
+    <h2>React</h2>
+    <p><ul><li><strong>React</strong> - <a href="https://reactjs.org/docs/hooks-intro.html" className='text-purple-300 hover:text-purple-500'>Introducing React Hooks</a></li></ul></p>
+
+    <h2>NextJS</h2>
+      <p><ul><li><a href="https://nextjs.org/learn/basics/create-nextjs-app" className='text-purple-300 hover:text-purple-500'>NextJS tutorial</a></li></ul></p>
+
+    <h2>Kotlin</h2>
+    <p><ul><li><strong>Google</strong> - <a href="https://grow.google/certificates/android-developer/" className='text-purple-300 hover:text-purple-500'>Android Development</a></li></ul></p>
+
+    <h2>Javascript</h2>
+    <p><ul><li><strong>Free Code Camp</strong> - <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" className='text-purple-300 hover:text-purple-500'>Javascript Algorithms and Data Structures</a></li></ul></p>
+
+  </Layout>
+)
+
+}
