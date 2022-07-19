@@ -34,7 +34,7 @@ return(
     <p><ul><li><strong>Google</strong> - <a href="https://grow.google/certificates/android-developer/" className='text-purple-300 hover:text-purple-500'>Android Development</a></li></ul></p>
 
     <h2>Javascript</h2>
-    <p><ul><li><strong>Free Code Camp</strong> - <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" className='text-purple-300 hover:text-purple-500'>Javascript Algorithms and Data Structures</a></li></ul></p>
+    <p><ul><li><strong>Free Code Camp</strong> - <a href="https://www.freecodecamp.org/certification/kthib16/javascript-algorithms-and-data-structures" className='text-purple-300 hover:text-purple-500'>Javascript Algorithms and Data Structures</a> (300 hours)</li></ul></p>
 
   </Layout>
 )
